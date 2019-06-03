@@ -7,7 +7,9 @@ Complete and submit the following:
 4.	In a JavaScript file, write a program which checks the following things:  
 a.	checks that the password is 12345678  
 b.	if the password is incorrect, send an alert message  
-c.	Your page should also include an <h1> tag. If the information in the form is correct, have JavaScript change the text in the <h1>.HTML page. It should include inputs for a username, email, and password. Also a submit button.  
+c.	Your page should also include an h1 tag. If the information in the form is correct, have JavaScript change the text in the h1.HTML page. It should include inputs for a username, email, and password. Also a submit button.  
 5.	Add a CSS stylesheet that styles all of your pages.  
 6.	Create an HTML page with a form that asks the user to input the value of a sphere's radius. Write JavaScript that gives them back the volume of the sphere. (There are many different ways to execute this. You can give the user information back in another input box on the page, as an alert, or any other way you can think of. You can look up how to use the JavaScript Math object to simplify your calculations.)  
+
+Demo: https://jeffrey-a.github.io/TTPAssignment-3/ 
 
