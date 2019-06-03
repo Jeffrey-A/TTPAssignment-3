@@ -1,0 +1,162 @@
+.in-page{
+    text-decoration: underline;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type:none;
+    margin-bottom: 50px;
+}
+
+nav ul a{
+    color: #000;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+/* Exercise 1 */
+
+h1{
+    text-align: center;
+}
+
+button{
+    display: block;
+    margin: 1rem;
+    font-size: 2rem;
+    padding: 10px;
+    
+
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    
+}
+
+#text-field{
+    text-align: center;
+}
+
+.right, .not-right{
+    color: red;
+}
+
+.not-right{
+    text-decoration: underline;
+}
+
+/* Exercise 2*/
+#dangerous-are{
+    border: 10px solid red;
+    border-radius: 5px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10%;
+
+}
+
+#dangerous-are h1{
+    text-decoration: underline;
+}
+
+/* Exercise 3 */
+html, body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+
+label{
+    display: block;
+    text-align: left;
+}
+
+#body-3{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    box-shadow: 1px 2px 5px #000;
+    width: 30%;
+    border-radius: 10px;
+    padding: 20px 10px;
+    text-align: center;
+
+}
+
+/* .login-container{
+    text-align: center;
+} */
+
+#logIn{
+    width: 150px;
+    margin: auto;
+    padding: 5px;
+}
+
+form div{
+    margin-top: 1rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+}
+
+.input-elements{
+    padding: 5px 0px;
+    width: 100%;
+}
+
+@media(max-width: 900px){
+    form{
+        width: 50%;
+    }
+}
+
+/* Exercise 6 */
+#body{
+    background-color: #90CAF9;
+}
+
+#form{
+    
+    margin-top: 50px;
+    box-shadow: 0px 0px 0px #000;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#display-6{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#form input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#btn-6{
+    background-color: #0D47A1;
+    border-color: #0D47A1;
+    color: #fff;
+}
+
+#btn-6:hover{
+    background-color: #1565C0;
+    border-color: #1565C0;
+}

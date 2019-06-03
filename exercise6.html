@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="body">
+    <h1>DOM Exercises</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Exercise 1</a></li>
+            <li><a href="exercise2.html">Exercise 2</a></li>
+            <li><a href="exercise3.html">Exercise 3</a></li>
+            <li><a href="exercise4.html">Exercise 4</a></li>
+            <li><a class="in-page" href="exercise6.html">Exercise 6</a></li>
+        </ul>
+    </nav>
+
+    <!-- Exercise 6 -->
+    <form id="form">
+        <h1 id="heading">Sphere's Volume</h1>
+         <input id="usern-6" type="text" placeholder="Enter Sphere Radius">
+        <input id="btn-6" type="submit" value="Calculate">
+    </form>
+    <div>
+        <h2 id="display-6"></h2>
+    </div>
+    
+    <script >
+    
+        // Exercise 6
+
+        let display = document.getElementById("display-6");
+
+
+        let submit = document.getElementById("btn-6");
+
+
+        submit.addEventListener('click', (e) => {
+            e.preventDefault();
+
+            let radius = parseInt(document.getElementById("usern-6").value);
+            
+            let volume  = (4.0/3) * Math.PI * (radius * radius * radius); 
+            if(volume){
+                display.innerText = "V = " + volume.toFixed(2);
+            }else{
+                alert("Invalid Input");
+            }
+            
+
+            
+            
+        });
+    </script>
+    </body>
+</html>

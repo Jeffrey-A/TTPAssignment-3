@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>DOM Exercises</h1>
+    <nav>
+        <ul>
+            <li><a class="in-page" href="index.html">Exercise 1</a></li>
+            <li><a href="exercise2.html">Exercise 2</a></li>
+            <li><a href="exercise3.html">Exercise 3</a></li>
+            <li><a href="exercise4.html">Exercise 4</a></li>
+            <li><a href="exercise6.html">Exercise 6</a></li>
+        </ul>
+    </nav>
+
+    <!-- Exercise 1 -->
+    <h1>Who is Right?</h1>
+    <div class="btn-container">  
+        <button id="right">Me</button> 
+        <button id="not-right">Jeffrey</button> 
+    </div>
+    
+    <div id="text-field"></div> 
+
+
+    <script>
+        //Exercise 1
+        let text = document.getElementById("text-field")
+        let right = document.getElementById("right");
+        let notRight = document.getElementById("not-right");
+
+        right.addEventListener("click", ()=>{
+            text.innerHTML ="<h1 class='right'>I am right</h1>";
+        });
+
+        notRight.addEventListener("click", ()=>{
+            text.innerHTML ="<h1  class='not-right'>No, I am right</h1>";
+        });
+
+    </script>
+</body>
+</html>
